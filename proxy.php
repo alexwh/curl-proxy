@@ -9,6 +9,7 @@ define(@proxyURL, "/sandbox/proxy.php", true);
 
 class Proxy {
 
+	// change this
 	protected $key = 'V01GJhIuqvxF%4TUKg45v6<4'; // must be 24 bits in length
 	public $options; // not yet used
 
