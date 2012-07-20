@@ -5,7 +5,7 @@ include('shd.php');
 // add options to mask UA
 define(@userAgent, $_SERVER['HTTP_USER_AGENT'], true);
 define(@serverAddr, 'http://' . $_SERVER['SERVER_NAME'], true);
-define(@proxyURL, "/sandbox/proxy.php", true);
+define(@proxyURL, $_SERVER['REQUEST_URI'], true);
 
 class Proxy {
 
