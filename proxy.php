@@ -1,5 +1,5 @@
 <?php
-// include the Simple HTML DOM parser
+// include the Simple HTML DOM parser - simplehtmldom.sourceforge.net
 include('shd.php');
 
 // add options to mask UA
@@ -9,8 +9,8 @@ define(@proxyURL, "/sandbox/proxy.php", true);
 
 class Proxy {
 
-	protected $key = 'V01GJhIuqvxF%4TUKg45v6<4';
-	public $options;
+	protected $key = 'V01GJhIuqvxF%4TUKg45v6<4'; // must be 24 bits in length
+	public $options; // not yet used
 
 	public function run() {
 		session_start();
@@ -38,11 +38,10 @@ class Proxy {
 		}
 
 		// block browsing to internal urls
-		// disabled for xampp
-		/*if (preg_match('/^(?:127\.|192\.168\.|10\.|172\.|localhost|alexwh)/i', $targetURL)) {
+		if (preg_match('/^(?:127\.|192\.168\.|10\.|172\.|localhost|alexwh)/i', $targetURL)) {
 			echo 'nope.avi';
 			exit;
-		}*/
+		}
 		// remove any "//"'s or "/"'s at the start of the url
 		$targetURL = preg_replace('/^\/\/|^\//','',$targetURL);
 

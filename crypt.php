@@ -1,3 +1,4 @@
+/* used to decrypt/encrypt strings produced by the encodify/decodify functions*/
 <?php
 class ifier {
 
