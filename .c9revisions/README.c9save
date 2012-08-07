@@ -1,0 +1,2 @@
+{"ts":1344329082093,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"A simple cURL proxy that rewrites assets and URLs.\n\nRequires php5-curl.\n\nThis is beta, and many things do not work or need to be added.\nCheck the @TODO's in the source."]],"start1":0,"start2":0,"length1":0,"length2":168}]],"length":168}
+{"contributors":[],"silentsave":false,"ts":1344329095806,"patch":[[{"diffs":[[0,"d URLs.\n"],[-1,"\n"],[0,"Requires"]],"start1":43,"start2":43,"length1":17,"length2":16}]],"length":167,"saved":false}

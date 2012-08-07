@@ -1,5 +1,4 @@
 A simple cURL proxy that rewrites assets and URLs.
-
 Requires php5-curl.
 
 This is beta, and many things do not work or need to be added.
